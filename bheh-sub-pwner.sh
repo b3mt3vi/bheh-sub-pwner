@@ -29,7 +29,7 @@ echo "++++ Domains & Sorted and saved under all_subs" | lolcat
 sleep 1
 echo "++++ PROBING & FINDING ONLY ALIVE HOSTS!..." | lolcat
 
-cat all_subs | httpx > urls_alive
+cat all_subs | docker run -i projectdiscovery/httpx > urls_alive
 echo "++++ Probing has been complete, enjoy your alive hosts and URLs under urls_alive..." | lolcat
 
 #echo "++++ Let's see if we can get some subdomain takeovers..."
@@ -45,7 +45,7 @@ sort -u ip_addr > ip_addr_sorted.txt
 rm ip_addr
 echo "++++ IP Addresses Saved under: ip_addr_sorted.txt" | lolcat
 sleep 1
-echo "Code written by Black Hat Ethical Hacking" | lolcat
+echo "Code written by Black Hat Ethical Hacking, Modified by b3mt3vi" | lolcat
 # Matrix effect
 echo "Entering the Matrix for 5 seconds:" | toilet --metal -f term -F border
 
