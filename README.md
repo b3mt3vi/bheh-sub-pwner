@@ -13,9 +13,7 @@ This bash script tool, will perform advanced subdomain enumeration using both Am
 
 # Requirements:
 
-You need to have installed all the below tools:
-
-Install docker:
+Docker:
 ```
 sudo apt install docker-ce
 
