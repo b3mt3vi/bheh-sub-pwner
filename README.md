@@ -15,28 +15,23 @@ This bash script tool, will perform advanced subdomain enumeration using both Am
 
 You need to have installed all the below tools:
 
-Install lolcat:
-pip install lolcat
+Install docker:
+```
+sudo apt install docker-ce
 
-Install amass:
-https://github.com/OWASP/Amass
-
-Install Sublist3r:
-https://github.com/aboul3la/Sublist3r
-
-
-Install httpx:
-https://github.com/projectdiscovery/httpx
+```
 
 # Usage
 
-chmod +x bheh-sub-pwner.sh
+```
+docker run -i sub-pwner
 
-./bheh-sub-pwner.sh domains.txt
+```
 
 # Credits:
 
 This code is written by Black Hat Ethical Hacking, is free to use, and you can fork it, and expand it to perform better methodology and workflow! - 2022
+This code was forked and modified by b3mt3vi. - 2024
 
 # Support
 
