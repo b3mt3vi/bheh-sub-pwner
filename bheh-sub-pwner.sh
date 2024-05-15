@@ -29,7 +29,7 @@ echo "++++ Domains & Sorted and saved under all_subs" | lolcat
 sleep 1
 echo "++++ PROBING & FINDING ONLY ALIVE HOSTS!..." | lolcat
 
-cat all_subs | docker run -i projectdiscovery/httpx > urls_alive
+cat all_subs | httpx > urls_alive
 echo "++++ Probing has been complete, enjoy your alive hosts and URLs under urls_alive..." | lolcat
 
 #echo "++++ Let's see if we can get some subdomain takeovers..."
