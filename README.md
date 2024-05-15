@@ -1,6 +1,12 @@
-# BHEH-SUB-PWNER
+# BHEH-SUB-PWNER *CONTAINERIZED*
 
 This bash script tool, will perform advanced subdomain enumeration using both Amass in Passive Mode, Sublist3r, save the results, it will then probe the subdomains into urls using httpx, save the results in a separate file, it will then resolve all the subdomains into ip addresses using a loop statement with hostname and grep/sed and save the results separately.
+
+**This fork makes the following adjustments:**
+- Containerized all the apps in the pipeline to prevent any dependency issues.
+- Outputs files to a folder desginated by user.
+- If the user doesn't specify a folder location, it creates one by default.
+- Ensures unique names of output files so they don't overwrite or append each other.
 
 # Requirements:
 
