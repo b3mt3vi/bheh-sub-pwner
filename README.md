@@ -24,7 +24,7 @@ sudo apt install docker-ce
 # Usage
 
 ```
-docker run -i sub-pwner
+docker run -i sub-pwner [input file]
 
 ```
 
