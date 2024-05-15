@@ -4,6 +4,7 @@ This bash script tool, will perform advanced subdomain enumeration using both Am
 
 **This fork makes the following adjustments:**
 - Containerized all the apps in the pipeline to prevent any dependency issues.
+**Coming soon:**
 - Outputs files to a folder desginated by user.
 - If the user doesn't specify a folder location, it creates one by default.
 - Ensures unique names of output files so they don't overwrite or append each other.
