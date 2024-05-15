@@ -9,6 +9,7 @@ This bash script tool, will perform advanced subdomain enumeration using both Am
 - Outputs files to a folder desginated by user.
 - If the user doesn't specify a folder location, it creates one by default.
 - Ensures unique names of output files so they don't overwrite or append each other.
+- Piping directly into nmap for seamless workflow.
 
 # Requirements:
 
